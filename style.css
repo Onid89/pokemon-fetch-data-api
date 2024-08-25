@@ -1,0 +1,62 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+
+  color: orange;
+  margin-top: 10px;
+}
+
+.sfera {
+  height: 50px;
+  width: 70px;
+}
+
+input {
+  margin-right: 20px;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+}
+
+.placeholder {
+  width: 200px;
+  height: 100px;
+}
+
+.btn {
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
